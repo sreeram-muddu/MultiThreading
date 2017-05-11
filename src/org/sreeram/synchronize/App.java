@@ -14,7 +14,7 @@ private int count;
 
 	}
 	
-	private synchronized void increment()
+	private synchronized void increment()  // THis would create a lock and only one thread at a time can get access to the method
 	{
 		++count;
 	}
